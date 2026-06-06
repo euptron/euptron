@@ -34,3 +34,5 @@ I'm a CS undergraduate and open-source contributor.
 - [Medium](https://medium.com/@euptron)
 - [Telegram](https://t.me/euptron)
 - [X/Twitter](https://x.com/euptron)
+
+<a href='https://ko-fi.com/G0D720U4ID' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
