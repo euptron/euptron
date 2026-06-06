@@ -6,9 +6,9 @@
 
 I'm a CS undergraduate and open-source contributor.
 
-- 🇳🇬 I'm a [Nigerian](https://simple.wikipedia.org/wiki/Nigeria)
+- 🇳🇬 I'm [Nigerian](https://simple.wikipedia.org/wiki/Nigeria)
 - 🧠 I'm currently learning [KMP](https://kotlinlang.org/multiplatform)
-- 📮 Reach me out at <a href="mailto:euptron@gmail.com">euptron@gmail.com</a>
+- 📮 Email <a href="mailto:euptron@gmail.com">euptron@gmail.com</a>
 - ⚡ Fun fact: If you see @euptron online, that's probably me.
 ---
 
