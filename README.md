@@ -31,4 +31,10 @@ I'm a CS undergraduate and open-source contributor.
 
 ### Support Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
 
+**Via Ko-fi:**
+
 <a href='https://ko-fi.com/G0D720U4ID' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+**Don't have Ko-fi?**
+[Click here](https://flutterwave.com/donate/pi2ia1mtwydm)
+
