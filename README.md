@@ -9,6 +9,7 @@ I'm a CS undergraduate and open-source contributor.
 - 🇳🇬 I'm [Nigerian](https://simple.wikipedia.org/wiki/Nigeria)
 - 🧠 I'm currently learning [KMP](https://kotlinlang.org/multiplatform)
 - 📮 Email <a href="mailto:euptron@gmail.com">euptron@gmail.com</a>
+- 📃 Documentations on [Medium](https://medium.com/@euptron)
 - ⚡ Fun fact: If you see @euptron online, that's probably me.
 ---
 
@@ -28,11 +29,6 @@ I'm a CS undergraduate and open-source contributor.
 ![Stats](https://github-readme-stats-one-bice.vercel.app/api?username=euptron&show_icons=true&icon_color=151B2C&title_color=151B2C)    
 ![Lang](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=euptron&layout=compact&title_color=151B2C&hide=javascript,html,css)
 
-### Connect with Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
-> Feel free to reach me on any of these platforms
-
-- [Medium](https://medium.com/@euptron)
-- [Telegram](https://t.me/euptron)
-- [X/Twitter](https://x.com/euptron)
+### Support Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
 
 <a href='https://ko-fi.com/G0D720U4ID' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
