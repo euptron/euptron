@@ -1,8 +1,18 @@
 name: Publish Notes
 
 # Runs on every push that touches notes/*.md in the euptron/euptron repo.
-# Compiles Markdown + Git timestamps into notes.json and publishes it to the
-# `notes-dist` branch, where the website fetches it from raw.githubusercontent.com.
+# Compiles Markdown + Git timestamps into a full dist/ bundle and publishes it
+# to this repo's `notes-dist` branch:
+#
+#   notes.json              - runtime feed for the notes listing page
+#   posts/<slug>/index.html - prerendered, fully crawlable post pages
+#   feed.xml                - Atom feed
+#   sitemap.xml             - sitemap incl. all posts
+#
+# The website (hosted on Cloudflare Pages via direct upload) fetches
+# notes.json for its listing, and its Pages Function serves the prerendered
+# pages at euptron.pages.dev/posts/<slug> straight from this branch.
+# No cross-repository access or secrets are required.
 
 on:
   push:
@@ -33,33 +43,36 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Build notes.json
+      - name: Build dist (notes.json, post pages, feed, sitemap)
         run: node scripts/build-notes.mjs
         env:
           NOTES_DIR: notes
-          OUT_PATH: dist/notes.json
+          OUT_DIR: dist
+          SITE_URL: https://euptron.pages.dev
 
-      - name: Publish notes.json to notes-dist branch
+      - name: Publish dist to notes-dist branch
         run: |
-          cp dist/notes.json "$RUNNER_TEMP/notes.json"
+          # keep artifacts outside the worktree before switching branches
+          cp -r dist "$RUNNER_TEMP/dist"
 
           if git ls-remote --exit-code --heads origin notes-dist > /dev/null 2>&1; then
             git fetch origin notes-dist
             git switch -C notes-dist origin/notes-dist
           else
             git switch --orphan notes-dist
-            git rm -rf --quiet . 2>/dev/null || true
           fi
 
-          mv "$RUNNER_TEMP/notes.json" ./notes.json
+          # replace previous contents entirely so stale posts never linger
+          git rm -rf --quiet . 2>/dev/null || true
+          cp -r "$RUNNER_TEMP/dist"/. .
 
           git config user.name  "euptron-notes-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add notes.json
+          git add -A
 
           if git diff --cached --quiet; then
-            echo "notes.json unchanged — nothing to publish."
+            echo "dist unchanged - nothing to publish."
           else
-            git commit -m "chore: rebuild notes.json [skip ci]"
+            git commit -m "chore: rebuild notes dist [skip ci]"
             git push origin notes-dist
           fi
