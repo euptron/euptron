@@ -7,6 +7,8 @@ name: Publish Notes
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '**.md'
     paths:
       - "notes/**/*.md"
       - "scripts/build-notes.mjs"
