@@ -43,6 +43,10 @@ jobs:
         run: |
           cp dist/notes.json "$RUNNER_TEMP/notes.json"
 
+          # remove local build output so the branch switch cannot collide with
+          # any same-named files tracked on notes-dist from previous runs
+          rm -rf dist
+
           if git ls-remote --exit-code --heads origin notes-dist > /dev/null 2>&1; then
             git fetch origin notes-dist
             git switch -C notes-dist origin/notes-dist
