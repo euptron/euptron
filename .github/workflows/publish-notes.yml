@@ -1,0 +1,65 @@
+name: Publish Notes
+
+# Runs on every push that touches notes/*.md in the euptron/euptron repo.
+# Compiles Markdown + Git timestamps into notes.json and publishes it to the
+# `notes-dist` branch, where the website fetches it from raw.githubusercontent.com.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "notes/**/*.md"
+      - "scripts/build-notes.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-notes
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for accurate Git timestamps)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build notes.json
+        run: node scripts/build-notes.mjs
+        env:
+          NOTES_DIR: notes
+          OUT_PATH: dist/notes.json
+
+      - name: Publish notes.json to notes-dist branch
+        run: |
+          cp dist/notes.json "$RUNNER_TEMP/notes.json"
+
+          if git ls-remote --exit-code --heads origin notes-dist > /dev/null 2>&1; then
+            git fetch origin notes-dist
+            git switch -C notes-dist origin/notes-dist
+          else
+            git switch --orphan notes-dist
+            git rm -rf --quiet . 2>/dev/null || true
+          fi
+
+          mv "$RUNNER_TEMP/notes.json" ./notes.json
+
+          git config user.name  "euptron-notes-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add notes.json
+
+          if git diff --cached --quiet; then
+            echo "notes.json unchanged — nothing to publish."
+          else
+            git commit -m "chore: rebuild notes.json [skip ci]"
+            git push origin notes-dist
+          fi
