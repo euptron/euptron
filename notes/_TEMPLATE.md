@@ -37,5 +37,5 @@ Frontmatter rules:
 - `title` (required) for the heading in the list & post page
 - `summary` (recommended) for the excerpt in the notes list
 - `tags` (optional) for the YAML list
-- `type` (optional) for the `post` or `note`
+- `type` (optional) for the `post` or `note` 
 - `date` come from Git history automatically so no need to add it.
