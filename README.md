@@ -27,7 +27,7 @@ I'm a CS undergraduate and open-source contributor.
 
 ### Overall Status
 ![Stats](https://github-readme-stats-one-bice.vercel.app/api?username=euptron&show_icons=true&icon_color=151B2C&title_color=151B2C)    
-![Lang](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=euptron&layout=compact&title_color=151B2C&hide=javascript,html,css)
+![Lang](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=euptron&layout=compact&title_color=151B2C)
 
 ### Support Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
 
