@@ -1,0 +1,34 @@
+# Security headers (all responses)
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+
+# Long-cache versioned assets (files are cache-busted via ?v= query strings)
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Never cache HTML or discovery files
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/*.html
+  Cache-Control: no-cache
+
+/posts/*
+  Cache-Control: max-age=3600
+
+/sitemap.xml
+  Cache-Control: max-age=3600
+
+/feed.xml
+  Cache-Control: max-age=3600

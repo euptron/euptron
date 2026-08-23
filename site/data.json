@@ -1,0 +1,136 @@
+{
+  "github_user": "euptron",
+  "featured_project": {
+    "tag": "Stable Release",
+    "title": "CodeOps Studio",
+    "text": "An mobile integrated development environment (IDE) for Android OS.",
+    "meta": "600+ Active Users · v1.1.0 · Android 8+",
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/euptron/CodeOps-Studio/refs/heads/dev/docs/assets/intro.png",
+        "caption": "Intro"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/euptron/CodeOps-Studio/refs/heads/dev/docs/assets/breadcrumbs.png",
+        "caption": "Breadcrumb navigation"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/euptron/CodeOps-Studio/refs/heads/dev/docs/assets/editor.png",
+        "caption": "Editor"
+      }
+    ],
+    "repo": "https://github.com/euptron/CodeOps-Studio",
+    "demo": "https://www.youtube.com/shorts/1oMf2cNymkY"
+  },
+  "timeline": [
+    {
+      "year": "2017",
+      "title": "The Inventor's Spark",
+      "text": "Fascinated by rockets, I dedicated my time to researching how rockets systems operate. My first project was an electrolyzer, which ignited my curiosity for how rockets work."
+    },
+    {
+      "year": "2018–2019",
+      "title": "The Shift to Code",
+      "text": "My focus shifted from hardware to software. I found interest in learning advance programming concepts, building small programs, and exploring Android development. This change was primarily because my dad said my experiments were too dangerous and that I should do something safer."
+    },
+    {
+      "year": "2022",
+      "title": "Dependency Haven",
+      "text": "At 17, I built Dependency Haven, a maven-inspired dependency resolver designed from scratch, capable of managing, resolving and downloading artifacts which was used by several developers."
+    },
+    {
+      "year": "2023–2024",
+      "title": "Doing the Impossible",
+      "text": "Using only my OPPO A1K, I built CodeOps Studio: a mobile-based integrated development environment (IDE) from the ground up. I saw this as a necessity to bridge the gap between mobile development and traditional desktop IDEs given that I had no access to a desktop computer."
+    },
+    {
+      "year": "2025",
+      "title": "Ground Zero",
+      "text": "Around August 2025, I lost my dad after a 5 year long battle with haemorrhagic stroke. His passing left a void deeper than words can capture. I guess that is life for you, you never know 🤷‍♀️ regardless I believe if I play my cards right \"Everything's gonna be okay.\""
+    },
+    {
+      "year": "2026",
+      "title": "What could possibly go wrong?",
+      "text": "I'm currently focused on building working hybrid plugin ecosystem for CodeOps Studio, I have no idea how I will achieve this using my phone but I'll try."
+    }
+  ],
+  "resume": {
+    "headline": "CS Undergraduate · Software Developer · Open-Source Contributor",
+    "summary": "Self-taught developer based in Nigeria, best known for building CodeOps Studio: a mobile-based IDE for Android OS.",
+    "pdf_url": "./assets/pdf/resume.pdf",
+    "experience": [
+      {
+        "role": "Creator & Maintainer",
+        "org": "CodeOps Studio",
+        "period": "2023 — Present",
+        "text": "Built and continue to maintain a full mobile IDE with syntax highlighting, linting, and CI/CD hooks. 300+ active users, v1.1.0 released, Android 8+ compatible."
+      },
+      {
+        "role": "Creator",
+        "org": "Dependency Haven",
+        "period": "2022",
+        "text": "Built a dependency resolver from scratch at 17, capable of resolving, downloading, and dexing libraries into Sketchware Pro-compatible formats."
+      }
+    ],
+    "education": [
+      {
+        "school": "Computer Science Undergraduate",
+        "period": "In progress",
+        "text": "Studying computer science at the University of Calabar, Nigeria."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "What I admire about him is that he delivers, even when you least expect him to. That kind of persistence is inspiring.",
+      "name": "Delight Ubom",
+      "role": "Cross-platform mobile developer",
+      "avatar": "https://avatars.githubusercontent.com/u/209397971?v=4",
+      "url": "https://github.com/crazyme281"
+    },
+    {
+      "quote": "Collaborating with @euptron was fantastic. His work ethic and attention to detail are top-notch, and he genuinely cares about the quality of what he builds. Highly recommended!",
+      "name": "Joniped",
+      "role": "Cross-platform mobile developer",
+      "avatar": "https://avatars.githubusercontent.com/u/102178560?v=4",
+      "url": "https://github.com/joniped"
+    }
+  ],
+  "uses": {
+    "hardware": [
+      {
+        "name": "Tecno Spark 40",
+        "note": "My 4GB android device."
+      }
+    ],
+    "languages": [
+      "Java",
+      "Rust",
+      "Kotlin",
+      "JavaScript (TypeScript)"
+    ],
+    "tools": [
+      {
+        "name": "CodeOps Studio",
+        "note": "My own mobile IDE, daily driver for my web development workflows."
+      },
+      {
+        "name": "GitHub",
+        "note": "Version control and where all my open-source work lives."
+      },
+      {
+        "name": "AndroidIDE",
+        "note": "IDE I use to build Android apps on my phone."
+      },
+      {
+        "name": "Termux",
+        "note": "Terminal environment on Android for running builds and scripts."
+      }
+    ],
+    "misc": [
+      "Learning Rust and Jetpack Compose for modern Android development",
+      "Improving my opensource contributions and building a personal brand",
+      "Developing the CodeOps Studio ecosystem and expanding its capabilities"
+    ]
+  }
+}
