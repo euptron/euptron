@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-24T19:15:27.496Z",
+  "generated_at": "2026-08-24T19:16:36.634Z",
   "count": 2,
   "posts": [
     {
       "slug": "android-plugin-architecture",
       "type": "note",
       "title": "Plugin architecture for Android.",
-      "summary": "My research the feasibility of a micro-kernel inspired hybrid plugin ecosystem for Android.",
+      "summary": "My research on the feasibility of a micro-kernel inspired plugin ecosystem for Android.",
       "tags": [
         "micro-kernel",
         "plugin",
         "android"
       ],
       "created": "2026-08-24T20:15:16+01:00",
-      "updated": "2026-08-24T20:15:16+01:00",
+      "updated": "2026-08-24T20:16:25+01:00",
       "source_file": "notes/android-plugin-architecture.md",
       "content": "WIP"
     },
