@@ -8,4 +8,4 @@ tags:
 type: research
 ---
 
-WIP
+Android is a great OS (WIP)
