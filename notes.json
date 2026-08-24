@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:16:36.634Z",
+  "generated_at": "2026-08-24T19:25:10.668Z",
   "count": 2,
   "posts": [
     {
@@ -13,9 +13,9 @@
         "android"
       ],
       "created": "2026-08-24T20:15:16+01:00",
-      "updated": "2026-08-24T20:16:25+01:00",
+      "updated": "2026-08-24T20:24:59+01:00",
       "source_file": "notes/android-plugin-architecture.md",
-      "content": "WIP"
+      "content": "Android is a great OS (WIP)"
     },
     {
       "slug": "building-on-a-budget-laptop",
