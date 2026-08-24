@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-24T19:03:59.775Z",
-  "count": 1,
+  "generated_at": "2026-08-24T19:15:27.496Z",
+  "count": 2,
   "posts": [
+    {
+      "slug": "android-plugin-architecture",
+      "type": "note",
+      "title": "Plugin architecture for Android.",
+      "summary": "My research the feasibility of a micro-kernel inspired hybrid plugin ecosystem for Android.",
+      "tags": [
+        "micro-kernel",
+        "plugin",
+        "android"
+      ],
+      "created": "2026-08-24T20:15:16+01:00",
+      "updated": "2026-08-24T20:15:16+01:00",
+      "source_file": "notes/android-plugin-architecture.md",
+      "content": "WIP"
+    },
     {
       "slug": "building-on-a-budget-laptop",
       "type": "post",
