@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-24T19:25:10.668Z",
-  "count": 2,
+  "generated_at": "2026-08-25T21:00:54.727Z",
+  "count": 3,
   "posts": [
+    {
+      "slug": "google-gemini-for-students",
+      "type": "post",
+      "title": "Claim 1 Year of Free Google AI (Gemini) for Students",
+      "summary": "A quick step-by-step guide for students to claim 1 year of free Google AI, verify with SheerID, and bypass portal errors.",
+      "tags": [
+        "Gemini",
+        "Google AI",
+        "Tutorial",
+        "Student Perks"
+      ],
+      "created": "2026-08-25T21:59:19+01:00",
+      "updated": "2026-08-25T21:59:19+01:00",
+      "source_file": "notes/google-gemini-for-students.md",
+      "content": "# How to Claim 1 Year of Free Google Gemini for Students\n\nGoogle is currently offering **one year of free access to Gemini Pro/Advanced** for university students. Follow the step-by-step guide below to claim your free subscription.\n\n---\n\n## Step-by-Step Application Guide\n\n1. **Visit the Application Link**  \n   Go to [gemini.google/students](https://gemini.google/students).\n\n2. **Sign In with a Personal Google Account**  \n   Log in using your personal `@gmail.com` address.  \n   \n> [!NOTE]\n> Avoid using school-issued email domains if possible, as institutional security settings can sometimes block promotional sign-ups.\n\n3. **Fill In Your Personal & University Details**  \n   Enter your first name, last name, university name, and any other required student information.\n\n4. **School Portal Redirect (If Applicable)**  \n   The page may attempt to redirect you to a Microsoft or institutional login portal.  \n   * **If the page fails to load or gives an error:** Close the tab, re-open the link, and restart the process.\n\n5. **Verify Student Status via SheerID**  \n   When prompted to provide proof of enrollment, take and upload a clear photo of your **Student ID card**. SheerID will review and verify your student status.\n\n6. **Link Your Bank Card**  \n   Add your debit/bank card to your Google Account to complete activation.  \n   \n> [!IMPORTANT]\n> Ensure you have at least **₦100** (or your local equivalent) in your bank account so Google can perform the initial authorization/card verification check.\n\n7. **Complete Activation**  \n   Once your card is linked and verified, confirm your claim to start your 1-year free subscription!\n\n---\n\n> [!WARNING]\n> **Important Disclaimers**\n> * **Claim Deadline:** Make sure to complete this process before the official promotional deadline set by Google.\n> * **Auto-Renewal & Cancellation:** A payment card is required upfront to start the trial. If you do not wish to be billed when the free year ends, set a calendar reminder to **cancel the subscription before the 12-month period expires**."
+    },
     {
       "slug": "android-plugin-architecture",
       "type": "note",
