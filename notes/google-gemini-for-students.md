@@ -9,8 +9,6 @@ tags:
 type: post
 ---
 
-# How to Claim 1 Year of Free Google Gemini for Students
-
 Google is currently offering **one year of free access to Gemini Pro/Advanced** for university students. Follow the step-by-step guide below to claim your free subscription.
 
 ---
@@ -23,7 +21,7 @@ Google is currently offering **one year of free access to Gemini Pro/Advanced** 
 2. **Sign In with a Personal Google Account**  
    Log in using your personal `@gmail.com` address.  
    
-> [!NOTE]
+> NOTE:
 > Avoid using school-issued email domains if possible, as institutional security settings can sometimes block promotional sign-ups.
 
 3. **Fill In Your Personal & University Details**  
@@ -39,15 +37,13 @@ Google is currently offering **one year of free access to Gemini Pro/Advanced** 
 6. **Link Your Bank Card**  
    Add your debit/bank card to your Google Account to complete activation.  
    
-> [!IMPORTANT]
+> NOTE:
 > Ensure you have at least **₦100** (or your local equivalent) in your bank account so Google can perform the initial authorization/card verification check.
 
 7. **Complete Activation**  
    Once your card is linked and verified, confirm your claim to start your 1-year free subscription!
 
----
-
-> [!WARNING]
+> NOTE:
 > **Important Disclaimers**
 > * **Claim Deadline:** Make sure to complete this process before the official promotional deadline set by Google.
 > * **Auto-Renewal & Cancellation:** A payment card is required upfront to start the trial. If you do not wish to be billed when the free year ends, set a calendar reminder to **cancel the subscription before the 12-month period expires**.
